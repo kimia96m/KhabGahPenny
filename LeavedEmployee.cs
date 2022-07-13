@@ -30,9 +30,5 @@ namespace KhabGahe_Penny
             DataSet ds = fm.getData(query);
             AllEmployeeLeftTable.DataSource = ds.Tables[0];
         }
-        private void test1()
-        {
-
-        }
     }
 }
